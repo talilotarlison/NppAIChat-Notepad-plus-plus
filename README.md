@@ -1,4 +1,4 @@
-# NppAIChat para Notepad++
+# NppAIChat para IDE Notepad++
 
 Converse com modelos de Inteligência Artificial por meio de uma API sem sair do Notepad++. O **NppAIChat** disponibiliza um chat integrado ao editor para apoiar tarefas de programação e trabalhar com dúvidas e trechos de código durante a edição.
 
