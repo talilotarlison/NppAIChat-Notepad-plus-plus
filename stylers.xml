@@ -1,0 +1,237 @@
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<NotepadPlus>
+    <GlobalStyles>
+        <WidgetStyle name="Default Style"
+            styleID="32"
+            fgColor="F8F8F2"
+            bgColor="282A36"
+            fontName="JetBrains Mono"
+            fontSize="11"
+            fontStyle="0" />
+
+        <WidgetStyle name="Line number margin"
+            styleID="33"
+            fgColor="6272A4"
+            bgColor="282A36" />
+
+        <WidgetStyle name="Brace highlight style"
+            styleID="34"
+            fgColor="50FA7B"
+            bgColor="44475A"
+            fontStyle="1" />
+
+        <WidgetStyle name="Brace incomplete highlight style"
+            styleID="35"
+            fgColor="FF5555"
+            bgColor="44475A"
+            fontStyle="1" />
+
+        <WidgetStyle name="Current line background colour"
+            styleID="36"
+            fgColor="F8F8F2"
+            bgColor="343746" />
+
+        <WidgetStyle name="Selected text colour"
+            styleID="38"
+            fgColor="F8F8F2"
+            bgColor="44475A" />
+
+        <WidgetStyle name="Caret colour"
+            styleID="39"
+            fgColor="F8F8F2"
+            bgColor="282A36" />
+
+        <WidgetStyle name="Fold"
+            styleID="40"
+            fgColor="6272A4"
+            bgColor="282A36" />
+
+        <WidgetStyle name="Indent guideline style"
+            styleID="37"
+            fgColor="44475A"
+            bgColor="282A36" />
+
+        <WidgetStyle name="White space symbol"
+            styleID="43"
+            fgColor="6272A4"
+            bgColor="282A36" />
+
+        <WidgetStyle name="Smart Highlighting"
+            styleID="47"
+            fgColor="F8F8F2"
+            bgColor="44475A" />
+
+        <WidgetStyle name="Find Mark Style"
+            styleID="48"
+            fgColor="282A36"
+            bgColor="F1FA8C" />
+
+        <WidgetStyle name="Edge colour"
+            styleID="40"
+            fgColor="44475A"
+            bgColor="282A36" />
+    </GlobalStyles>
+
+    <LexerStyles>
+
+        <!-- HTML -->
+        <LexerType name="html" desc="HTML">
+            <WordsStyle name="DEFAULT" styleID="0"
+                fgColor="F8F8F2" bgColor="282A36"
+                fontName="JetBrains Mono" fontSize="11" />
+
+            <WordsStyle name="TAG" styleID="1"
+                fgColor="FF79C6" bgColor="282A36" />
+
+            <WordsStyle name="ATTRIBUTE" styleID="3"
+                fgColor="50FA7B" bgColor="282A36" />
+
+            <WordsStyle name="ATTRIBUTE VALUE" styleID="4"
+                fgColor="F1FA8C" bgColor="282A36" />
+
+            <WordsStyle name="COMMENT" styleID="9"
+                fgColor="6272A4" bgColor="282A36"
+                fontStyle="2" />
+
+            <WordsStyle name="NUMBER" styleID="5"
+                fgColor="BD93F9" bgColor="282A36" />
+
+        </LexerType>
+
+        <!-- JavaScript -->
+        <LexerType name="javascript" desc="JavaScript">
+            <WordsStyle name="DEFAULT" styleID="0"
+                fgColor="F8F8F2" bgColor="282A36"
+                fontName="JetBrains Mono" fontSize="11" />
+
+            <WordsStyle name="COMMENT" styleID="1"
+                fgColor="6272A4" bgColor="282A36"
+                fontStyle="2" />
+
+            <WordsStyle name="NUMBER" styleID="2"
+                fgColor="BD93F9" bgColor="282A36" />
+
+            <WordsStyle name="WORD" styleID="5"
+                fgColor="FF79C6" bgColor="282A36"
+                fontStyle="1" />
+
+            <WordsStyle name="STRING" styleID="6"
+                fgColor="F1FA8C" bgColor="282A36" />
+
+            <WordsStyle name="OPERATOR" styleID="10"
+                fgColor="FF79C6" bgColor="282A36" />
+
+        </LexerType>
+
+        <!-- CSS -->
+        <LexerType name="css" desc="CSS">
+            <WordsStyle name="DEFAULT" styleID="0"
+                fgColor="F8F8F2" bgColor="282A36"
+                fontName="JetBrains Mono" fontSize="11" />
+
+            <WordsStyle name="TAG" styleID="1"
+                fgColor="FF79C6" bgColor="282A36" />
+
+            <WordsStyle name="CLASS" styleID="2"
+                fgColor="50FA7B" bgColor="282A36" />
+
+            <WordsStyle name="ID" styleID="3"
+                fgColor="BD93F9" bgColor="282A36" />
+
+            <WordsStyle name="PSEUDOCLASS" styleID="4"
+                fgColor="8BE9FD" bgColor="282A36" />
+
+            <WordsStyle name="PROPERTY" styleID="5"
+                fgColor="8BE9FD" bgColor="282A36" />
+
+            <WordsStyle name="VALUE" styleID="6"
+                fgColor="F1FA8C" bgColor="282A36" />
+
+            <WordsStyle name="COMMENT" styleID="9"
+                fgColor="6272A4" bgColor="282A36"
+                fontStyle="2" />
+
+        </LexerType>
+
+        <!-- PHP -->
+        <LexerType name="php" desc="PHP">
+            <WordsStyle name="DEFAULT" styleID="0"
+                fgColor="F8F8F2" bgColor="282A36"
+                fontName="JetBrains Mono" fontSize="11" />
+
+            <WordsStyle name="COMMENT" styleID="1"
+                fgColor="6272A4" bgColor="282A36"
+                fontStyle="2" />
+
+            <WordsStyle name="NUMBER" styleID="4"
+                fgColor="BD93F9" bgColor="282A36" />
+
+            <WordsStyle name="WORD" styleID="5"
+                fgColor="FF79C6" bgColor="282A36"
+                fontStyle="1" />
+
+            <WordsStyle name="STRING" styleID="6"
+                fgColor="F1FA8C" bgColor="282A36" />
+
+            <WordsStyle name="VARIABLE" styleID="8"
+                fgColor="50FA7B" bgColor="282A36" />
+
+            <WordsStyle name="OPERATOR" styleID="10"
+                fgColor="FF79C6" bgColor="282A36" />
+
+        </LexerType>
+
+        <!-- Python -->
+        <LexerType name="python" desc="Python">
+            <WordsStyle name="DEFAULT" styleID="0"
+                fgColor="F8F8F2" bgColor="282A36"
+                fontName="JetBrains Mono" fontSize="11" />
+
+            <WordsStyle name="COMMENTLINE" styleID="1"
+                fgColor="6272A4" bgColor="282A36"
+                fontStyle="2" />
+
+            <WordsStyle name="NUMBER" styleID="2"
+                fgColor="BD93F9" bgColor="282A36" />
+
+            <WordsStyle name="STRING" styleID="3"
+                fgColor="F1FA8C" bgColor="282A36" />
+
+            <WordsStyle name="WORD" styleID="5"
+                fgColor="FF79C6" bgColor="282A36"
+                fontStyle="1" />
+
+            <WordsStyle name="CLASSNAME" styleID="8"
+                fgColor="8BE9FD" bgColor="282A36" />
+
+            <WordsStyle name="FUNCTION" styleID="9"
+                fgColor="50FA7B" bgColor="282A36" />
+
+            <WordsStyle name="OPERATOR" styleID="10"
+                fgColor="FF79C6" bgColor="282A36" />
+
+        </LexerType>
+
+        <!-- JSON -->
+        <LexerType name="json" desc="JSON">
+            <WordsStyle name="DEFAULT" styleID="0"
+                fgColor="F8F8F2" bgColor="282A36"
+                fontName="JetBrains Mono" fontSize="11" />
+
+            <WordsStyle name="PROPERTYNAME" styleID="7"
+                fgColor="8BE9FD" bgColor="282A36" />
+
+            <WordsStyle name="STRING" styleID="2"
+                fgColor="F1FA8C" bgColor="282A36" />
+
+            <WordsStyle name="NUMBER" styleID="3"
+                fgColor="BD93F9" bgColor="282A36" />
+
+            <WordsStyle name="LITERAL" styleID="4"
+                fgColor="FF79C6" bgColor="282A36" />
+
+        </LexerType>
+
+    </LexerStyles>
+</NotepadPlus>
