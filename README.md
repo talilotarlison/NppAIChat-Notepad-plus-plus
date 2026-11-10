@@ -60,6 +60,8 @@ A configuração específica — como provedor, modelo, URL da API ou forma de i
 - **O chat abre, mas a solicitação falha:** verifique a conexão com a internet, a configuração da API e se a credencial e o serviço estão válidos.
 - **A instalação não é compatível:** verifique se a versão e a arquitetura do Notepad++ correspondem ao pacote do plugin.
 
+## Documentação detalhada
+- [ `Documentação` ] ([Handook](https://github.com/talilotarlison/NppAIChat-Notepad-plus-plus/blob/main/Handbook.md)) - Documentação detalha como usa API Gemini, Deepeseek, Cloud, OpenIA e OpenRouter.
 ## Arquivos neste repositório
 
 - [`NppAIChat_v1.0.0.zip`](NppAIChat_v1.0.0.zip) — pacote do plugin para instalação manual.
