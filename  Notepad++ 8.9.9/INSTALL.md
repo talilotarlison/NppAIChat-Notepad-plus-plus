@@ -4,7 +4,7 @@ Para instalar o Notepad++ e configurá-lo para trabalhar com codigo, siga o pass
 
 Passo 1: Baixar e Instalar o Notepad++
 
-1. Acesse o site oficial ou baixe o instalador mais recente do Notepad++. ( você pode baixa o zip tambem desse repositorio)
+1. Acesse o site oficial ou baixe o instalador mais recente do Notepad++. ( você pode baixar o zip tambem desse repositorio )
 2. Execute o arquivo baixado como Administrador.
 3. Selecione o idioma de sua preferência (ex: Português do Brasil) e clique em Próximo.
 4. Leia os termos de uso e clique em Eu concordo.
