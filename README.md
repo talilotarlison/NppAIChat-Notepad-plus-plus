@@ -61,7 +61,7 @@ A configuração específica — como provedor, modelo, URL da API ou forma de i
 - **A instalação não é compatível:** verifique se a versão e a arquitetura do Notepad++ correspondem ao pacote do plugin.
 
 ## Documentação detalhada
-- [ `Documentação` ] ([Handook](https://github.com/talilotarlison/NppAIChat-Notepad-plus-plus/blob/main/Handbook.md)) - Documentação detalha como usa API Gemini, Deepeseek, Cloud, OpenIA e OpenRouter.
+- [ `Documentação` ] ([Handook](https://github.com/talilotarlison/NppAIChat-Notepad-plus-plus/blob/main/docs/Handbook.md)) - Documentação detalha como usa API Gemini, Deepeseek, Cloud, OpenIA e OpenRouter.
 ## Arquivos neste repositório
 
 - [`NppAIChat_v1.0.0.zip`](NppAIChat_v1.0.0.zip) — pacote do plugin para instalação manual.
@@ -69,4 +69,4 @@ A configuração específica — como provedor, modelo, URL da API ou forma de i
 - [`npp.8.9.9.Installer.x64.exe`](npp.8.9.9.Installer.x64.exe) — instalador do Notepad++ 8.9.9 para Windows 64 bits.
 
 ## Acesse ao Projeto Original
-- [NppAIChat](https://github.com/isaacjuan/NppAIChat)
+- [NppAIChat Gituhub](https://github.com/isaacjuan/NppAIChat)

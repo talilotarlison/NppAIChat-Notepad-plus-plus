@@ -1,0 +1,47 @@
+name: Verificação Universal de Vulnerabilidades
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+  schedule:
+    - cron: '0 8 * * 1'
+
+permissions:
+  contents: read
+
+jobs:
+  # 1. Análise Estática de Código (SAST) - Detecta a linguagem sozinho
+  analise-codigo-semgrep:
+    name: Análise de Código (Semgrep)
+    runs-on: ubuntu-latest
+    container:
+      image: semgrep/semgrep
+
+    steps:
+      - name: Baixar código do repositório
+        uses: actions/checkout@v4
+
+      - name: Executar varredura de segurança no código
+        run: semgrep scan --config auto --error --severity ERROR
+
+  # 2. Varredura de Dependências, Docker e Segredos (Trivy)
+  varredura-trivy:
+    name: Dependências e Segredos (Trivy)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar código do repositório
+        uses: actions/checkout@v4
+
+      - name: Executar Trivy
+        uses: aquasecurity/trivy-action@master
+        with:
+          scan-type: 'fs'
+          scan-ref: '.'
+          format: 'table'
+          exit-code: '1'
+          ignore-unfixed: true
+          scanners: 'vuln,secret,misconfig'
+          severity: 'CRITICAL,HIGH'
