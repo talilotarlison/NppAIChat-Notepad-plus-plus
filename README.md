@@ -69,4 +69,4 @@ A configuração específica — como provedor, modelo, URL da API ou forma de i
 - [`npp.8.9.9.Installer.x64.exe`](npp.8.9.9.Installer.x64.exe) — instalador do Notepad++ 8.9.9 para Windows 64 bits.
 
 ## Acesse ao Projeto Original
-- [NppAIChat Gituhub](https://github.com/isaacjuan/NppAIChat)
+- [NppAIChat Github](https://github.com/isaacjuan/NppAIChat)
