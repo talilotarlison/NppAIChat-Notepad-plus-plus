@@ -66,7 +66,7 @@ A configuração específica — como provedor, modelo, URL da API ou forma de i
 
 - [`NppAIChat_v1.0.0.zip`](NppAIChat_v1.0.0.zip) — pacote do plugin para instalação manual.
 - [`image.png`](image.png) — imagem de demonstração exibida nesta página.
-- [`npp.8.9.9.Installer.x64.exe`](npp.8.9.9.Installer.x64.exe) — instalador do Notepad++ 8.9.9 para Windows 64 bits.
+- [`npp.8.9.9.Installer.x64.exe`](npp.8.9.9.Installer.x64.exe) — Dentro da pasta [ Notepad++ 8.9.9] , presente o instalador do Notepad++ 8.9.9 para Windows 64 bits usado nesse projeto.(Para ultimas versões baixar no site oficial do [Notepad++](https://notepad-plus-plus.org/). 
 
 ## Acesse ao Projeto Original
-- [NppAIChat Github](https://github.com/isaacjuan/NppAIChat)
+- [NppAIChat Github](https://github.com/isaacjuan/NppAIChat) - Projeto original do chat de IA integrado ao Notepad++.
